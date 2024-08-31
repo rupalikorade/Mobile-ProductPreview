@@ -6,7 +6,7 @@
     <title>Product Preview</title>
     <style>
         body{
-            background: linear-gradient(pink, red, yellow);
+            background: linear-gradient(rgb(86, 217, 231), rgb(209, 141, 232), yellow);
         }
         .product-img-container{
             display: flex;
@@ -41,7 +41,7 @@
         .product-img:hover{
             box-shadow: 10px 10px 10px 1px;
             transform: scale(1.1);
-            transition: 0.2s;
+            transition: 0s;
         }
         h1{
             text-align: center;
@@ -54,11 +54,11 @@
     <h1>View Mobiles Products</h1>
     <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg" id="main-img"/>
     <div class="product-img-container">
-        <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg"  class="product-img" onmousemove="changeImage(1)">
-        <img src="./images/william-hook-9e9PD9blAto-unsplash.jpg"  class="product-img" onmousemove="changeImage(2)">
-        <img src="./images/priscilla-du-preez-tBypczR1CFI-unsplash.jpg"  class="product-img" onmousemove="changeImage(3)">
-        <img src="./images/william-hook-9e9PD9blAto-unsplash (1).jpg"  class="product-img" onmousemove="changeImage(4)">
-        <img src="./images/priscilla-du-preez-BOUdudmAnk4-unsplash.jpg"  class="product-img" onmousemove="changeImage(5)">
+        <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg"  class="product-img" onclick="changeImage(1)">
+        <img src="./images/william-hook-9e9PD9blAto-unsplash.jpg"  class="product-img" onclick="changeImage(2)">
+        <img src="./images/priscilla-du-preez-tBypczR1CFI-unsplash.jpg"  class="product-img" onclick="changeImage(3)">
+        <img src="./images/william-hook-9e9PD9blAto-unsplash (1).jpg"  class="product-img" onclick="changeImage(4)">
+        <img src="./images/priscilla-du-preez-BOUdudmAnk4-unsplash.jpg"  class="product-img" onclick="changeImage(5)">
 
     </div>
   <script src="./index.js">  
