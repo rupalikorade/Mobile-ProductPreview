@@ -14,7 +14,7 @@
           
         }
 
-        #main-img{
+        .main-img{
             width: 300px;
             height: 300px;
             background-color: #cbd3d0;
@@ -31,7 +31,7 @@
             height: 70px;
             width: 70px;
             object-fit: fill;
-            border: 1px solid black;
+            border: 1px solid rgb(232, 223, 223);
         
             border-radius: 10px;
             margin: 10px;
@@ -39,9 +39,9 @@
 
         }
         .product-img:hover{
-            box-shadow: 10px 10px 10px 1px;
+            
             transform: scale(1.1);
-            transition: 0s;
+            transition: 0.5s;
         }
         h1{
             text-align: center;
@@ -52,7 +52,7 @@
 </head>
 <body>
     <h1>View Mobiles Products</h1>
-    <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg" id="main-img"/>
+    <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg" class="main-img"/>
     <div class="product-img-container">
         <img src="./images/freestocks-L5DxWLmywmM-unsplash.jpg"  class="product-img" onclick="changeImage(1)">
         <img src="./images/william-hook-9e9PD9blAto-unsplash.jpg"  class="product-img" onclick="changeImage(2)">
